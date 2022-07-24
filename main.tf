@@ -1,7 +1,7 @@
 provider "aws" {
     region                   = "us-east-2"
-    shared_config_files      = ["/Users/josh/.aws/config"]
-    shared_credentials_files = ["/Users/josh/.aws/credentials"]
+    shared_config_files      = ["/Users/{username}/.aws/config"]
+    shared_credentials_files = ["/Users/{username}/.aws/credentials"]
     profile                 = "tf-course"
 }
 
